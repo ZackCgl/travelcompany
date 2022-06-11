@@ -1,0 +1,66 @@
+.userdate__input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-weight: 600;
+    background-color: rgba(22, 122, 252, 0.199);
+    
+}
+
+.userdate__input > h2{
+   margin-top: 20px;
+   margin-left: 50px;
+    
+}
+
+.userdate__input > form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.userdate__input > form > input{
+    
+    margin-bottom: 20px;
+}
+
+.userdate__inputsamen > button{
+    background-color: rgb(0, 119, 230);
+    color: aliceblue;
+    margin-left: 60px;
+    font-weight: 400;
+   
+    width: 80px;
+    cursor: pointer;
+
+}
+
+.userdate__inputsamen > button:hover{
+    background-color: rgb(4, 61, 114);
+    color: aliceblue;
+    margin-left: 60px;
+    font-weight: 400;
+   
+    width: 80px;
+    cursor: pointer;
+
+}
+
+.userdate__inputsamen {
+    display: flex;
+
+}
+
+
+.return__data3{
+    
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    
+
+}

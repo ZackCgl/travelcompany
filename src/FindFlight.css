@@ -1,0 +1,144 @@
+.app__row{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(11, 9, 27, 0.973);
+    border-radius: 2px;
+    padding: 30px;
+      
+ 
+  }
+
+  .findflight__output{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 122, 252, 0.199);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  
+  .app__row1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .app__row1 > input{
+    background-color: rgba(46, 66, 133, 0.589);
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border: 6px solid transparent;
+  }
+  
+  .app__row1 >  select{
+    background-color: rgba(88, 110, 182, 0.589);
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  
+    border: 6px solid transparent;
+    
+  }
+
+  .app__row1 > p {
+    background-color: rgba(88, 110, 182, 0.589);
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 12.5px;
+
+    border: 6px solid transparent;
+    
+  }
+  
+  .app__row1 > label{
+   color: rgb(255, 255, 255);
+   font-weight: 700;
+   font-size: large;
+   
+   
+  }
+  
+  
+  
+  .app__row2{
+    margin-top: 18px;
+    
+  }
+  
+  .app__row1 > button{
+    background-color: rgb(61, 194, 72);
+    color: aliceblue;
+    font-size: large;
+    font-weight: 400;
+    border-radius: 20px;
+    width: 150px;
+    margin-top: 10px;
+  }
+  
+  .app__row1 > button:hover{
+    background-color: rgb(39, 126, 47);
+    color: aliceblue;
+    font-size: large;
+    font-weight: 400;
+    border-radius: 20px;
+    width: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .flight__outputrow > img{
+height: 40px;
+margin-right: 10px;
+  }
+
+  .flight__outputrow {
+    display: flex;
+    align-items: center;
+      }
+
+      .flight__outputrow > button{
+        background-color: rgb(0, 119, 230);
+    color: aliceblue;
+    margin-left: 60px;
+    font-weight: 400;
+   border-radius: 5px;
+    width: 80px;
+    
+          }
+
+          .flight__outputrow > button:hover{
+            background-color: rgb(7, 70, 129);
+        color: aliceblue;
+        margin-left: 60px;
+        font-weight: 400;
+       
+        width: 80px;
+        cursor: pointer;
+              }
+
+    .return__data{
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .return__data > p{
+     margin-right: 10px;
+      
+    }
+
+    .return__data > table > thead{
+     font-weight: 700;
+       
+     }
+
+     .app__clear{
+       margin-right: 20px;
+       height: 30px;
+      margin-top: 23px;
+      font-weight: 600;
+      background-color: rgb(17, 46, 175);
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      font-size: 13px;
+     }

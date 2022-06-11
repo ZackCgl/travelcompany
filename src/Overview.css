@@ -1,0 +1,48 @@
+
+.overview{
+    justify-content: center;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(22, 122, 252, 0.199);
+   
+}
+
+.overview > h2{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.return__data {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 50px;
+   
+    
+}
+
+.return__data1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+
+
+.return__ording{
+    display: flex;
+}
+
+.return__ording > strong{
+    margin-right: 20px;
+}
+
+.return__ording > p{
+  
+}
+
+
