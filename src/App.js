@@ -1,29 +1,20 @@
 
-import Home from "./Home"
+import Home from "./Pages/Home"
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Header from './Header';
-import UserData from "./UserData";
-import Overview from "./Overview";
-
-
-
-
-
+import UserData from "./Pages/Form";
+import Overview from "./Pages/Controle";
 
 function Navbar() {
   return (
-    
-    
     <div>
 
-    <Router>
-        <Routes>
-          <Route path="/" element={[<Header />,<Home />]}></Route>
-          <Route path="/userdata" element={[<Header />,<UserData />]}></Route>
-          <Route path="/overview" element={[<Header />,<Overview />]}></Route>
-         
-        </Routes>
-     </Router>
+      <Router>
+          <Routes>
+            <Route path="/" element={[<Home />]}></Route>
+            <Route path="/userdata" element={[<UserData />]}></Route>
+            <Route path="/overview" element={[<Overview />]}></Route>
+          </Routes>
+      </Router>
     </div>
     
   )

@@ -1,13 +1,12 @@
 
-import './App.css';
-import FindFlight from './FindFlight';
+import Search from '../Components/Search';
 
 
 function Home() {
   return (
     <div className="app">
      
-      <FindFlight />
+      <Search />
       
     </div>
   );
